@@ -1,0 +1,80 @@
+
+    .earrings-container {
+        width: 100%;
+        background-color: #fff;
+        
+    }
+    
+    .earrings-text-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 120px;
+        background-color: #fff;
+    }
+    
+    .earrings-title {
+        font-size: 50px;
+    }
+    
+    .earrings-subtitle {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    
+    .bat-earrings-container {
+        width: 90%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .bat-image-container {
+        width: 100%;
+    }
+    
+    .bat-image {
+        width: 100%;
+        
+    }
+    
+    .controls-ladybug-container {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    .controls-image {
+        width: 48%;
+    }
+    
+    .ladybug-image {
+        width: 48%;
+    }
+    
+    
+    
+    .accesories-paragraph {
+        margin-top: 50px;
+        font-size: 24px;
+    }
+
+    .home {
+        color: rgba(0, 0, 0, .7);
+    }
+
+@media screen and (min-width: 1200px) {
+    .earrings-container{
+        background-color: #fff;
+    }
+
+    .bat-earrings-container {
+        width: 70%;
+    }
+
+    .controls-ladybug-container {
+        width: 70%;
+    }
+}

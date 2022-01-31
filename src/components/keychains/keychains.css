@@ -1,0 +1,76 @@
+
+    .keychains-container {
+        width: 100%;
+        background-color: #fff;
+        padding-top: 120px;
+    }
+
+    .keychains-text-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .keychains-title {
+        font-size: 50px;
+    }
+    
+    .keychains-subtitle {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    
+    .keychains-images-container {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+    }
+    
+    .cookie-container {
+        width: 90%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .cookie-image {
+        width: 80%;
+    }
+
+    .kirbikey-container {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .kirbikey-image {
+        width: 80%;
+    }
+    
+    .clown-container {
+        width: 90%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .clown-image {
+        width: 80%;
+    }
+    
+    
+    
+    .keychain-span-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        font-size: 24px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        .keychains-images-container {
+            width: 80%;
+            margin: 20px auto;
+        }
+    }

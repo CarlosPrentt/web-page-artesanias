@@ -1,0 +1,46 @@
+
+    .design-container {
+        width: 100%;
+        position: relative;
+        margin-top: 100px;
+    }
+    
+    .kirbi-img {
+        width: 100%;
+        opacity: .8;
+    }
+    
+    .design-text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: absolute;
+        z-index: 100;
+        height: 80px;
+        align-items: center;
+        justify-content: center;
+        top: calc(50% - 40px);
+        left: 10%;
+        font-size: 20px;
+    }
+
+    .link-design {
+        color: #000;
+        text-decoration: none;
+    }
+
+@media screen and (min-width: 900px) {
+    .design-text {
+        font-size: 30px;
+        left: 20%;
+    }
+
+    .kirbi-img {
+        width: 70%;
+    }
+
+    .design-container {
+        display: flex;
+        justify-content: center;
+    }
+}

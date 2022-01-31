@@ -1,0 +1,19 @@
+.products-general-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.products-text {
+    font-size: 50px;
+    margin: 50px 0px;
+}
+
+.products-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+

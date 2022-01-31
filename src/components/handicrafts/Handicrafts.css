@@ -1,0 +1,37 @@
+
+
+.handicrafts-products {
+    width: 100%;
+    margin-top: 125px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.handicrafts-img {
+    width: 100%;
+    
+}
+
+.sticky-cart {
+    background-color: red;
+    position: relative;
+}
+
+@media screen and (min-width: 900px) {
+  .handicrafts-img{
+      width: 70%;
+  }
+
+  .handicrafts-products {
+      display: flex;
+      justify-content: center;
+      background-color: #FBC6A4;
+  }
+}
+
+@media screen and (min-width: 1200px){
+    .handicrafts-img{
+        width: 40%;
+    }
+}

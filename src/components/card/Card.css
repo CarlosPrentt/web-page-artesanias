@@ -1,0 +1,80 @@
+* {
+    font-family: 'Zilla Slab', serif;
+}
+
+.product-info-contain {
+    width: 50%;
+    min-width: 120px;
+    height: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 3px 2px 6px rgba(0, 0, 0, .6);
+}
+
+.p-control {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.img-container {
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    align-items: center;
+}
+
+.image {
+    width: 90%;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .6);
+}
+
+.p {
+    margin-top: 15px;
+
+}
+
+.price  {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.delete-value-container {
+    margin-top: 15px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.number-plus {
+    text-align: center;
+    width: 40px;
+    height: 20px;
+}
+
+.x-icon {
+    font-size: 30px;
+    color: rgb(255, 47, 47);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 900px) {
+
+    
+    .product-info-contain{
+        width: 100%;
+        max-width: 200px;
+        min-height: 410px;
+        margin: 30px;
+    }
+}
