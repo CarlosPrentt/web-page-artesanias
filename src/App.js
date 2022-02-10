@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from 'pages/home/Home';
@@ -26,6 +25,7 @@ function App() {
     <Router>
       <Header cartItems={cart.length} />
       <Switch>
+        
         <Route exact path="/" component={Home} />
         <Route exact path="/cart" >
           <Carts cart={cart} setCart={setCart} />

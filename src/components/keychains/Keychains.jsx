@@ -9,8 +9,8 @@ const Keychains = () => {
   return (
     <div id="keychains" className="keychains-container">
       <div className="keychains-text-container">
-      <Link to="/products">
-        <span className="topitos-title">Productos</span>
+      <Link className="topitos-title" to="/products">
+        <span className="topitos-title">➛Productos</span>
       </Link>
         <span className="keychains-subtitle">ARETES</span>
       </div>

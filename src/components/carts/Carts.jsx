@@ -1,5 +1,5 @@
 import React from "react";
-import Cart from "components/card/Card";
+import Card from "components/card/Card";
 // import { data } from "data/data";
 import "./Carts.css";
 
@@ -19,7 +19,7 @@ const Carts = ({ cart = [], setCart }) => {
     <div id="cart" className="product-box">
       <div className="product-containerr">
         {cart.map((item) => (
-          <Cart key={item.id} product={item} cart={cart} setCart={setCart} />
+          <Card key={item.id} product={item} cart={cart} setCart={setCart} />
         ))}
       </div>
       <div className="btn-container">

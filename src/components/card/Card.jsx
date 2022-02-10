@@ -2,7 +2,7 @@ import React from "react";
 import "./Card.css";
 // import { data } from 'data/data';
 
-function Cart({ product, cart, setCart }) {
+function Card({ product, cart, setCart }) {
 
   const removeItem = () => {
     setCart(cart.filter((item) => item.id !== product.id));
@@ -32,4 +32,4 @@ function Cart({ product, cart, setCart }) {
   );
 }
 
-export default Cart;
+export default Card;

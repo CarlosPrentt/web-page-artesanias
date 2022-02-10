@@ -15,7 +15,7 @@ const Footer = () => {
           <i className="far fa-images catalog-icon fab"></i>
         </a>
       </div>
-      <a href="#home" className="home">Inicio...</a>
+      {/* <a href="#home" className="home">Inicio...</a> */}
 
     
     </footer>

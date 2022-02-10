@@ -12,7 +12,7 @@ const Products = ({cart,setCart}) => {
         <div className="products-container">
             {
           data.map(item => <Product key={item.id} product={item} cart={cart} setCart={setCart}/>)
-            };
+            }
         </div>
         </div>
     );

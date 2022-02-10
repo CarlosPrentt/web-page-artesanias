@@ -6,8 +6,8 @@ const Topitos = () => {
   return (
     <div className="topitos-container">
       <div className="topitos-text-container">
-      <Link to="/products">
-        <span className="topitos-title">Productos</span>
+      <Link className="topitos-title" to="/products">
+        <span className="topitos-title">➛Productos</span>
       </Link>
         <span className="topitos-subtitle">TOPITOS</span>
 
